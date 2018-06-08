@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/xml_editor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-xml_editor2'
+  spec.name          = 'fastlane-plugin-xml_editor'
   spec.version       = Fastlane::XmlEditor::VERSION
   spec.author        = %q{Jonathan Ritchie}
   spec.email         = %q{jonathan.ritchie@orionhealth.com}
