@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/xml_editor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-xml_editor'
+  spec.name          = 'fastlane-plugin-xml_editor2'
   spec.version       = Fastlane::XmlEditor::VERSION
   spec.author        = %q{Jonathan Ritchie}
   spec.email         = %q{jonathan.ritchie@orionhealth.com}
 
   spec.summary       = %q{Generic xml editor for iOS and Android projects.}
-  spec.homepage      = "https://github.com/jonathanneilritchie/fastlane-plugin-xml_editor"
+  spec.homepage      = "https://github.com/dearsatan/fastlane-plugin-xml_editor"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   # Don't add a dependency to fastlane or fastlane_re
   # since this would cause a circular dependency
 
-  spec.add_dependency 'plist', '~> 3.3.0'
+  spec.add_dependency 'plist', '~> 3.3'
   spec.add_dependency 'nokogiri', '~> 1.8.0'
 
   spec.add_development_dependency 'pry'
